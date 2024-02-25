@@ -1,0 +1,16 @@
+CREATE DATABASE Consultations;
+
+USE  Consultations;
+
+CREATE TABLE Users(
+slNo INT AUTO_INCREMENT PRIMARY KEY,
+Name VARCHAR(100),
+country VARCHAR(50),
+contInfo VARCHAR(100)UNIQUE,
+issue VARCHAR(255)
+);
+
+DESCRIBE Users;
+
+SELECT * FROM Users;
+
